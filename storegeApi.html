@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storage api</title>
+</head>
+<body>
+    <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure ab corporis libero at porro soluta accusantium nam dolorum aspernatur recusandae inventore, velit assumenda facere pariatur, aperiam autem laudantium dolorem debitis?</p>
+
+<label for="bgColor">chose color</label>
+
+  <select id="bgColor" onchange="populateStorage()" >
+    <option value="white"> </option>
+    <option value="red">RED</option>
+    <option value="blue">BLUE</option>
+    <option value="green">GREEN</option>
+    <option value="yellow">YELLOW</option> 
+  </select>
+    <label for="font">chose font style</label>
+    <select name="" id="font" onchange="populateStorage()">
+        <option value="monospace" style="font-family: 'Courier New', Courier, monospace;">monospace</option>
+        <option value="Serif" style="font-family: serif;">Serif</option>
+        <option value="Sans-serif" style="font-family: sans-serif;">Sans-serif</option>
+    </select>
+    <label for="image">image</label>
+
+    <select name="" id="image" onchange="populateStorage()">
+        <option value="firfox.jpg" >firFox</option>
+        <option value="crockdile.jpg" >crocdile</option>
+        <option value="nn.jpg" >totoise</option>
+    </select>
+    <img id="image2" src=""  alt="">
+
+</body>
+<script src="storageApi.js"></script>
+</html>
